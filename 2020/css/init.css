@@ -1,0 +1,164 @@
+/*
+ * 页面规整样式文件
+ */
+
+ @charset "utf-8";
+ * {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     outline: 0;
+     vertical-align: baseline;
+     text-decoration: none;
+     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+     -webkit-backface-visibility: hidden;
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     -ms-box-sizing: border-box;
+     -o-box-sizing: border-box;
+     box-sizing: border-box;
+     opacity: 1;
+ }
+ 
+ #trans-tooltip,
+ #tip-arrow-bottom,
+ #tip-arrow-top {
+     display: none;
+ }
+ 
+ :focus {
+     outline: none;
+ }
+ 
+ table {
+     border-collapse: separate;
+     border-spacing: 0;
+ }
+ 
+ caption,
+ th,
+ td {
+     font-weight: normal;
+ }
+ 
+ a,
+ img,
+ iframe,
+ button {
+     border: none;
+     outline: 0;
+ }
+ 
+ a:hover {
+     text-decoration: none;
+ }
+ 
+ img {
+     display: inline-block;
+     vertical-align: middle;
+     overflow: hidden;
+ }
+ 
+ ol,
+ ul,
+ li {
+     list-style: none;
+ }
+ 
+ input,
+ textarea,
+ select,
+ button {
+     font-size: 100%;
+     font-family: inherit;
+     color: #333;
+ }
+ 
+ select {
+     margin: inherit;
+ }
+ 
+ input[type=number]::-webkit-inner-spin-button {
+     -webkit-appearance: none;
+ }
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6 {
+     font-size: 16px;
+ }
+ body {
+     font-family: "Microsoft YaHei", simsun, Arial, sans-serif, Mingliu, Verdana, Helvetica, Lucida;
+     color: #333;
+     font-size: 16px;
+     text-align: justify;
+     position: relative;
+ }
+ 
+
+ 
+ a {
+     color: #333;
+ }
+ 
+ 
+ .omission {
+     display: inline-block;
+     text-overflow: ellipsis;
+     white-space: nowrap;
+     overflow: hidden;
+ }
+ 
+ .clrfix {
+     zoom: 1;
+ }
+ 
+ .clrfix:after {
+     content: '';
+     display: block;
+     height: 0;
+     clear: both;
+ }
+ 
+ .fl {
+     float: left;
+ }
+ 
+ .fr {
+     float: right;
+ }
+ 
+ .text-l {
+     text-align: left;
+ }
+ 
+ .text-c {
+     text-align: center;
+ }
+ 
+ .text-r {
+     text-align: right;
+ }
+ 
+ .table {
+     display: table;
+ }
+ 
+ .table-row {
+     display: table-row;
+ }
+ 
+ .table-cell {
+     display: table-cell;
+     vertical-align: middle;
+ }
+ 
+ .transition300 {
+     -webkit-transition: 0.3s;
+     -moz-transition: 0.3s;
+     -ms-transition: 0.3s;
+     -o-transition: 0.3s;
+     transition: 0.3s;
+ }
